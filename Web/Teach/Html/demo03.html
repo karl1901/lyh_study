@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="karl">
+  <meta name="author" content="karl">
+  <title>karl的html模板页面</title>
+</head>
+
+<body>
+
+  <!-- 表格 -->
+  <!-- border：设置表格边框 -->
+  <table border="1">
+    <!-- thead：页眉 -->
+    <thead>
+      <tr>
+        <!-- 
+          th：表头
+          colspan：设置标签占据表格的列数
+        -->
+        <th colspan="5">东风小学学生成绩表</th>
+      </tr>
+    </thead>
+    <!-- 
+        tr：行
+      -->
+    <tr>
+      <th>姓名</th>
+      <th>性别</th>
+      <th>年龄</th>
+      <th>成绩</th>
+      <th>备注</th>
+    </tr>
+    <tr>
+      <!-- 
+        td：表格单元
+      -->
+      <td>小明</td>
+      <td>男</td>
+      <td>17</td>
+      <td>289</td>
+      <!-- 
+        rowspan：设置标签占据表格的行数
+      -->
+      <td rowspan="3">暂无</td>
+    </tr>
+    <tr>
+      <td>小王</td>
+      <td>男</td>
+      <td>17</td>
+      <td>289</td>
+    </tr>
+    <tr>
+      <td>小张</td>
+      <td>男</td>
+      <td>17</td>
+      <td>289</td>
+    </tr>
+  </table>
+
+  <!-- 列表 -->
+  <!-- 无序列表：没有序号的列表 -->
+  <p>商品列表</p>
+  <ul>
+    <li>芬达</li>
+    <li>冰茶</li>
+    <li>绿茶</li>
+  </ul>
+
+  <!-- 有序列表：有序号的列表，并且序号是递增的 -->
+  <p>商品列表</p>
+  <ol>
+    <li>芬达</li>
+    <li>冰茶</li>
+    <li>绿茶</li>
+  </ol>
+
+  <!-- 自定义列表 -->
+  <p>自定义列表</p>
+  <dl>
+    <dt>小明</dt>
+    <dd>小明在打篮球</dd>
+    <dt>小王</dt>
+    <dd>小王在吃饭</dd>
+    <dt>小张</dt>
+    <dd>小张在学习</dd>
+  </dl>
+
+</body>
+
+</html>
