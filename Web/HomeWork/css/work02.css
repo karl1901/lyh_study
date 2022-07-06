@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eaae4c;
+  color: white;
+  height: 3.5rem;
+  font-size: 1.6rem;
+  letter-spacing: 2.3px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-bottom: 1.3px solid rgb(116, 116, 116);
+}
+
+.left_menu {
+  display: block;
+  width: 300px;
+  height: 500px;
+  float: left;
+  margin: 3rem 1.5rem;
+  background: #eaae4c;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.left_menu > div:nth-child(2) {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.left_menu > div:nth-child(2) div {
+  cursor: pointer;
+  padding: 5px;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+.left_menu > div:nth-child(2) div:hover {
+  background-color: #d69e44
+}
+
+.left_menu > div:last-child {
+  display: block;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 17px;
+}
+
+.left_menu > div:last-child:hover {
+  color: rgb(237, 238, 244);
+}
+
+.main {
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  background: #efefef;
+  float: left;
+  margin: 2rem 1.5rem;
+  border-radius: 0.3rem;
+}
+
+.main > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.main > div > div {
+  cursor: pointer;
+  padding: 0.7rem;
+  background: rgb(255, 255, 255);
+  border-radius: 0.4rem;
+}
+
+.main > div > div:hover {
+  color: #eaae4c;
+  box-shadow: 0.2rem 0.3rem 0.3rem rgb(175, 175, 175);
+}
+
+.bottom {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 30px;
+  bottom: 0;
+  color: #666666;
+}
